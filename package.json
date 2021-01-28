@@ -1,0 +1,19 @@
+{
+  "name": "serverless-guestbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guestbook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajp-io/serverless-guestbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajp-io/serverless-guestbook/issues"
+  },
+  "homepage": "https://github.com/ajp-io/serverless-guestbook#readme"
+}
