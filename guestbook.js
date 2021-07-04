@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = '';
+const apiUrl = 'https://github.com/Sumeet2013/serverless-guestbook/blob/main/guestbook.js';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
