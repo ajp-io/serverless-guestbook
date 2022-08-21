@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = '';
+const apiUrl = '/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
