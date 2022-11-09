@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = '';
+const apiUrl = 'https://eu-gb.functions.appdomain.cloud/api/v1/web/coursera-pksheaad_pksheaad/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
