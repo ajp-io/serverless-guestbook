@@ -34,6 +34,8 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
+      - print_pipeline_id:
+          to: $CIRCLE_WORKFLOW_ID
       - run:
           name: "Say world"
           command: "echo World!"
