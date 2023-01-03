@@ -1,0 +1,22 @@
+version: 2.1
+
+commands:
+  return_error:
+    steps:
+      - run: return 1
+
+jobs:
+  my_job:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - return_error
+      - run:
+          name: Non-Zero error 
+          command: echo "non-zero error"
+          when: on_fail
+
+workflows:
+  my_workflow:
+    jobs:
+      - my_job
